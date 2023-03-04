@@ -2,14 +2,6 @@ fetch("https://dummyjson.com/users")
     .then(res => res.json())
     .then(res => reload(res))
 
-// function color() {
-//     let x = Math.round(Math.random() * 256);
-//     let y = Math.round(Math.random() * 256);
-//     let z = Math.round(Math.random() * 256);
-//     let clors = "rgb(" + x + "," + y + "," + z + ")";
-//     return clors
-// }
-
 let cont = document.querySelector('.container')
 let elem1 = document.querySelector('.elem')
 let elem2 = document.querySelector('.elem2')
